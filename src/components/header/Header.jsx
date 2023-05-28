@@ -14,7 +14,7 @@ function Header() {
         {/* <h5 className='text-light'>Fullstack Developer</h5> */}
         <div className="typing-text">
         <div className="static-text"></div>
-          <ul class="dynamic-texts">
+          <ul className="dynamic-texts">
               <li><span>Programmer</span></li>
               <li><span>MERN-Developer</span></li>
               <li><span>WEB3-Developer</span></li>
@@ -26,7 +26,7 @@ function Header() {
 
         {/* MY Photo */}
         <div className="me">
-          <img src={Me} alt="My Photo" />
+          <img src={Me} alt="My Photo" className="photo"/>
         </div>
 
         {/* Scroll Down Feature */}
