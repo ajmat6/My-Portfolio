@@ -3,9 +3,9 @@ import './achievements.css'
 
 function Achievements() {
   return (
-    <div>
+    <section id='achievements'>
       achievements
-    </div>
+    </section>
   )
 }
 
