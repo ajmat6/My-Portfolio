@@ -1,0 +1,95 @@
+header {
+    height: 100vh;
+    padding-top: 5rem;
+}
+
+.header-container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* ***************************** Typing-Text ***************************** */
+.typing-text{
+    color: white;
+    display: inline-flex;
+    margin-top: 0.3rem;
+}
+
+.typing-text .static-text{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 1px;
+}
+
+
+.typing-text .dynamic-texts{
+    /* margin-left: 12px; */
+    line-height: 48.8px;
+    height: 48px;
+    overflow: hidden;
+}
+
+
+.dynamic-texts li{
+    list-style: none;
+    font-size: 2.2rem;
+    color: #4db5ff;
+    font-weight: 800;
+    position: relative;
+    top: 0;
+    animation: slideAbove 8s steps(4) infinite;
+}
+
+
+@keyframes slideAbove {
+    100%{
+        top: -201px;
+    }
+}
+
+
+.dynamic-texts li span{
+    position: relative;
+}
+
+.dynamic-texts li span::after{
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #1f1f38; 
+    border-left: 2px solid #4db5ff;
+    animation: typing 2s steps(14) infinite;  
+}
+
+
+
+ @keyframes typing {
+    100%{
+        left: 100%;
+        margin: 0 -30px 0 30px; 
+    }
+}
+
+/* ****************************** CTA ************************************ */
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center ;
+}
+
+/* ****************************** Social Links ************************************ */
+.header-socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
