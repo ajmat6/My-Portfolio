@@ -1,6 +1,6 @@
-section {
+/* section {
     height: 100vh;
-}
+} */
 
 .about-container {
     display: grid;
@@ -88,9 +88,9 @@ section {
         margin: 1rem 0 1.5rem;
     }
 
-    section {
+    /* section {
         height: 150vh;
-    }
+    } */
   }
   
   
@@ -113,10 +113,10 @@ section {
     }
 
     .about-content p {
-        margin: 1.5rem 0;
+        margin: 1.5rem 0;   
     }
 
-    section {
+    /* section {
         height: 180vh;
-    }
+    } */
   }

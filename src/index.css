@@ -64,7 +64,7 @@ h1{
 /* Every component to be wrapped in a section tag */
 section{
   margin-top: 8rem;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 /* Every section having direct child h2 and h5 */
