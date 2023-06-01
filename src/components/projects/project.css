@@ -1,0 +1,61 @@
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    text-align: center;
+}
+
+.project-item {
+    background: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    text-align: center;
+}
+
+.project-item:hover {
+    border-color: var(--color-primary-variant);
+    background: transparent;
+
+}
+
+.project-item-image {
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.btn {
+    margin-top: 1rem;
+}
+
+h3 {
+    color: var(--color-primary);
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.github {
+    margin: -3px 0.4rem;
+
+}
+
+/* ********************************** Media Queries (Medium Devices) **************************************** */
+
+@media screen and (max-width: 1024px) {
+    .project-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+}
+  
+  
+  /* ********************************** Media Queries (Small Devices) **************************************** */
+  
+  
+  @media screen and (max-width: 600px) {
+    .project-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
