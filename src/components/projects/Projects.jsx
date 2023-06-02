@@ -90,7 +90,7 @@ function Projects() {
                   </div>
                   <h3>{title}</h3>
                   <p>{description}</p>
-                  <a href={github} className="btn btn-primary" target='_blank'>Github<span><FaGithub className="github"/></span></a>
+                  <a href={github} className="btn btn-primary" target='_blank'>Github<span><FaGithub className="github"/></span>  </a>
                   {/* <a href="https://github.com/ajmat6" className="btn" target='_blank'>Github<FaGithub /></a> */}
                 </article>
               )
