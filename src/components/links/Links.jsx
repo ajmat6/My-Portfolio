@@ -5,6 +5,14 @@ import gfg from '../../Assets/gfg.jfif'
 import github from '../../Assets/github.png'
 import Linkedin from '../../Assets/linkedin.png'
 
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from "swiper";
+
+// Import Swiper styles
+import 'swiper/css';
+import "swiper/css/pagination";
+
 const data = [
     {
         photo: Linkedin,
@@ -34,21 +42,25 @@ function Links() {
         <h5>Look At My Profiles</h5>
         <h2>Links</h2>
 
-
-        <div className="container links-container">
+        {/* Swiper js -> First install it by npm i swiper and then look for the documentation */}
+        <Swiper className="container links-container"
+        modules={[Pagination]}
+        spaceBetween={40}
+        slidesPerView={1}
+        pagination={{ clickable: true }}    >
             {
                 data.map(({photo, name, link}, index) => {
                     return (
-                        <article key={index} className="links">
+                        <SwiperSlide key={index} className="links">
                             <div className="link-photo">
                                 <a href={link} target="_blank"><img src={photo} alt={name} /></a>
                             </div>
                             <h5 className='link-name'>{name}</h5>
-                        </article>
+                        </SwiperSlide>
                     )
                 })
             }
-        </div>
+        </Swiper>
     </section>
   )
 }

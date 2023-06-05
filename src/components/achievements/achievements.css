@@ -40,7 +40,7 @@
     color: var(--color-primary);
 }
 
-h5 {
+.leetcode h5 {
     margin-top: 2rem;
 }
 
