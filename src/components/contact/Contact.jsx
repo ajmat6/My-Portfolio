@@ -1,10 +1,21 @@
-import React from 'react'
+import React, { useRef } from 'react';
 import './contact.css'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsLinkedin} from 'react-icons/bs'
 import {BsWhatsapp} from 'react-icons/bs'
+import emailjs from 'emailjs-com' // Importing emailjs
 
 function Contact() {
+
+  // Taken from emailjs docs
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_2mp7tzs', 'template_8t9vhsi', form.current, '7Tr7DoGXcC_4hpdqM')
+  };
+
   return (
     <section id='contact'>
       <h5>Get In Touch With Me</h5>
@@ -35,11 +46,12 @@ function Contact() {
           </article>
         </div>
 
-        <form action="">
+        {/* Using useRef hook for the action of the form */}
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Enter Your Name' required/>
-          <input type="emial" name='email' placeholder='Enter Your Email' required />
+          <input type="email" name='email' placeholder='Enter Your Email' required />
           <textarea name="message" rows="7" placeholder='Enter Your Message' required></textarea>
-          <button type='submit' className='btn btn-primary'>Send Message</button>
+          <button type='submit' className='btn btn-primary submitButton'>Send Message</button>
         </form>
       </div>
     </section>
