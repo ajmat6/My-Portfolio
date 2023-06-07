@@ -37,7 +37,7 @@ function About() {
             </article>
           </div>
 
-          <p>"Hey there! I'm Ajmat Kathat, a versatile programmer, web developer, and video editor. With a passion for creating captivating digital experiences, I specialize in crafting elegant websites and seamlessly editing videos that leave a lasting impact. Through my expertise in programming languages and creative design, I strive to bring your visions to life. Let's collaborate and make your online presence truly shine!"</p>
+          <p>"Hey there! I'm Ajmat Kathat, a versatile programmer, full stack web developer, and video editor. With a passion for creating captivating digital experiences, I specialize in crafting elegant websites and seamlessly editing videos that leave a lasting impact. Through my expertise in programming languages and creative design, I strive to bring your visions to life. Let's collaborate and make your online presence truly shine!"</p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>   
         </div>

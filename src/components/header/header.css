@@ -111,11 +111,11 @@ header {
     left: 50%;
     transform: translateX(-50%);
     margin-top: 4rem;
-    border-radius: 12rem 12rem 1rem 1rem;
+    border-radius: 50%;
 }
 
 .photo {
-    border-radius: 10rem 10rem 0.5rem 0.5rem;
+    border-radius: 50%;
     border: 2px solid var(--color-primary);
 }
 
@@ -137,7 +137,7 @@ header {
 
 @media screen and (max-width: 1024px) {
     header {
-        height: 100vh;
+        height: 71vh;
     }
 }
   
@@ -147,7 +147,7 @@ header {
   
   @media screen and (max-width: 600px) {
     header {
-        height: 100vh;
+        height: 84vh;
     }
 
     .header-socials, .scroll-down {

@@ -3,6 +3,26 @@ import './achievements.css'
 import {BsFillPatchCheckFill} from 'react-icons/bs'
 import {SiLeetcode} from 'react-icons/si'
 
+import {AiFillHtml5} from 'react-icons/ai'
+import {SiCss3} from 'react-icons/si'
+import {DiJavascript} from 'react-icons/di'
+import {FaReact} from 'react-icons/fa'
+import {FaNodeJs} from 'react-icons/fa'
+import {SiExpress} from 'react-icons/si'
+import {SiMongodb} from 'react-icons/si'
+import {BsFillBootstrapFill} from 'react-icons/bs'
+import {TbBrandMysql} from 'react-icons/tb'
+import {SiPug} from 'react-icons/si'
+import {DiPython} from 'react-icons/di'
+import {FaJava} from 'react-icons/fa'
+import {SiSolidity} from 'react-icons/si'
+import {SiCplusplus} from 'react-icons/si'
+import {BsGit} from 'react-icons/bs'
+import {FaLinux } from 'react-icons/fa'
+import {BsFillDatabaseFill} from 'react-icons/bs'
+import {RiComputerFill} from 'react-icons/ri'
+
+
 function Achievements() {
   return (
     <section id='achievements'>
@@ -15,35 +35,35 @@ function Achievements() {
           <h3>Frontend Development</h3>
           <div className="experience-content">
             <article className="experience-d">
-              <BsFillPatchCheckFill className="experience-icon"/>
+              <AiFillHtml5 className="experience-icon"/>
               <div>
                 <h4>HTML</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className="experience-d">
-              <BsFillPatchCheckFill className="experience-icon"/>
+              <SiCss3 className="experience-icon"/>
               <div>
                 <h4>CSS</h4>
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>
             <article className="experience-d">
-              <BsFillPatchCheckFill className="experience-icon"/>
+              <DiJavascript className="experience-icon"/>
               <div>
                 <h4>Javascript</h4>
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>
             <article className="experience-d">
-              <BsFillPatchCheckFill className="experience-icon"/>
+              <BsFillBootstrapFill className="experience-icon"/>
               <div>
                 <h4>Bootstrap</h4>
                 <small className='text-light'>Basic</small>
               </div>
             </article>
             <article className="experience-d">
-              <BsFillPatchCheckFill className="experience-icon"/>
+              <FaReact className="experience-icon"/>
               <div>
                 <h4>React</h4>
                 <small className='text-light'>Intermediate</small>
@@ -56,35 +76,35 @@ function Achievements() {
           <h3>Backend Development</h3>
           <div className="experience-content">
             <article className="experience-d">
-              <BsFillPatchCheckFill className="experience-icon"/>
+              <FaNodeJs className="experience-icon"/>
               <div>
                 <h4>Node.js</h4>
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>
             <article className="experience-d">
-              <BsFillPatchCheckFill className="experience-icon"/>
+              <SiExpress className="experience-icon"/>
               <div>
                 <h4>Express.js</h4>
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>
             <article className="experience-d">
-              <BsFillPatchCheckFill className="experience-icon"/>
+              <SiMongodb className="experience-icon"/>
               <div>
                 <h4>MongoDB</h4>
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>
             <article className="experience-d">
-              <BsFillPatchCheckFill className="experience-icon"/>
+              <TbBrandMysql className="experience-icon"/>
               <div>
                 <h4>MySQL</h4>
                 <small className='text-light'>Basic</small>
               </div>
             </article>
             <article className="experience-d">
-              <BsFillPatchCheckFill className="experience-icon"/>
+              <SiPug className="experience-icon"/>
               <div>
                 <h4>PUG, Handlebars</h4>
                 <small className='text-light'>Intermediate</small>
@@ -97,35 +117,35 @@ function Achievements() {
           <h3>Programming</h3>
           <div className="experience-content">
             <article className="experience-d">
-              <BsFillPatchCheckFill className="experience-icon"/>
+              <SiCplusplus className="experience-icon"/>
               <div>
                 <h4>C</h4>
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>
             <article className="experience-d">
-              <BsFillPatchCheckFill className="experience-icon"/>
+              <SiCplusplus className="experience-icon"/>
               <div>
                 <h4>C++</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className="experience-d">
-              <BsFillPatchCheckFill className="experience-icon"/>
+              <FaJava className="experience-icon"/>
               <div>
                 <h4>Java</h4>
                 <small className='text-light'>Basic</small>
               </div>
             </article>
             <article className="experience-d">
-              <BsFillPatchCheckFill className="experience-icon"/>
+              <DiPython className="experience-icon"/>
               <div>
                 <h4>Python</h4>
                 <small className='text-light'>Basic</small>
               </div>
             </article>
             <article className="experience-d">
-              <BsFillPatchCheckFill className="experience-icon"/>
+              <SiSolidity className="experience-icon"/>
               <div>
                 <h4>Solidity</h4>
                 <small className='text-light'>Basic</small>
@@ -133,8 +153,8 @@ function Achievements() {
             </article>
           </div>
           <div className="leetcode">
-            <BsFillPatchCheckFill className="icon"/>
-            <h5>Check Out My Leetcode Profile - <span><a href="https://leetcode.com/ajmat6" target='_blank'><SiLeetcode className='leet'/></a></span></h5>
+            <SiLeetcode className="icon"/>
+            <h5>Check Out My Leetcode Profile -> <span><a href="https://leetcode.com/ajmat6" target='_blank'><SiLeetcode className='leet'/></a></span></h5>
           </div>
         </div>
 
@@ -142,14 +162,14 @@ function Achievements() {
           <h3>Others</h3>
           <div className="experience-content">
             <article className="experience-d">
-              <BsFillPatchCheckFill className="experience-icon"/>
+              <BsGit className="experience-icon"/>
               <div>
                 <h4>Version Control - Git</h4>
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>
             <article className="experience-d">
-              <BsFillPatchCheckFill className="experience-icon"/>
+              <FaLinux className="experience-icon"/>
               <div>
                 <h4>Operating System - Linux</h4>
                 <small className='text-light'>Basic</small>
@@ -163,14 +183,14 @@ function Achievements() {
               </div>
             </article>
             <article className="experience-d">
-              <BsFillPatchCheckFill className="experience-icon"/>
+              <BsFillDatabaseFill className="experience-icon"/>
               <div>
                 <h4>DBMS</h4>
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>
             <article className="experience-d">
-              <BsFillPatchCheckFill className="experience-icon"/>
+              <RiComputerFill className="experience-icon"/>
               <div>
                 <h4>Computer Networks</h4>
                 <small className='text-light'>Intermediate</small>

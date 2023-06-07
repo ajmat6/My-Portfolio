@@ -2,6 +2,9 @@ import React from 'react'
 import './project.css'
 import {FaGithub} from 'react-icons/fa'
 import Notes from '../../Assets/Notes.jpg'
+import text from '../../Assets/text.png'
+import weather from '../../Assets/weather.jfif'
+import news from '../../Assets/news.jpg'
 
 // for major projects
 const data1 = [
@@ -9,15 +12,15 @@ const data1 = [
     id:1,
     image: Notes,
     title: 'AksBook',
-    github: 'https://github.com/ajmat6',
+    github: 'https://github.com/ajmat6/AKsBook-MERN',
     description: "Introducing AKsBook that offers each user a personalized account, empowering them to effortlessly add, update, and delete their own notes. Ensuring utmost security, AKsBook guarantees that users can't access each other's notes. Leveraging the power of React, Node, Express, Bootstrap, JSON Web Tokens, and Postman, AKsBook sets a new standard for seamless and protected note management. "
   },
   {
     id:2,
-    image: Notes,
+    image: news,
     title: 'Newsmat',
-    github: 'https://github.com/ajmat6',
-    description: "Newsmat is a dynamic news website featuring separate sections for science, health, technology, education, Bollywood, and more. Powered by React, Node, Express, Bootstrap and equipped with infinite loading spinner, it offers an immersive and seamless news browsing experience that keeps you updated not only about what is happening in all over India but the incidents from all over the world."
+    github: 'https://github.com/ajmat6/React-Newsmat',
+    description: "Newsmat is a dynamic news website featuring separate sections for science, health, technology, education, Bollywood, and more. Powered by React, Node, Express, Bootstrap and equipped with infinite loading spinner and News API, it offers an immersive and seamless news browsing experience that keeps you updated not only about what is happening in all over India but the incidents from all over the world."
    }
   // {
   //   id:3,
@@ -39,17 +42,17 @@ const data2 = [
   // },
   {
     id:5,
-    image: Notes,
+    image: weather,
     title: 'Weather App',
-    github: 'https://github.com/ajmat6',
-    description: 'This is the description of the project'
+    github: 'https://github.com/ajmat6/Express-Weather-App',
+    description: 'Created a Minor Project of Weather App using Weather API that shows current weather of known places from all over the world. Created with the help of Node.js, Express.js, Handlebars, Bootstrap and Weather API.'
   },
   {
     id:6,
-    image: Notes,
+    image: text,
     title: 'TextAnalyzer',
-    github: 'https://github.com/ajmat6',
-    description: 'This is the description of the project'
+    github: 'https://github.com/ajmat6/TextAnalyzer',
+    description: 'TextAnalyzer converts text to lowercase, uppercase, copy-to-clipboard functionality, counts words and characters, includes audio feature for text-to-speech, and offers a night mode option.'
   }
 ]
 
@@ -66,7 +69,7 @@ function Projects() {
             return (
               <article key={id} className="project-item">
                 <div className="project-item-image">
-                  <img src={image} alt={title} />
+                  <img className='project-photo' src={image} alt={title} />
                 </div>
                 <h3>{title}</h3>
                 <p>{description}</p>
@@ -86,7 +89,7 @@ function Projects() {
               return (
                 <article key={id} className="project-item">
                   <div className="project-item-image">
-                    <img src={image} alt={title} />
+                    <img className='project-photo' src={image} alt={title} />
                   </div>
                   <h3>{title}</h3>
                   <p>{description}</p>
