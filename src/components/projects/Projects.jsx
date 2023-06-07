@@ -10,37 +10,37 @@ const data1 = [
     image: Notes,
     title: 'AksBook',
     github: 'https://github.com/ajmat6',
-    description: 'This is the description of the project'
+    description: "Introducing AKsBook that offers each user a personalized account, empowering them to effortlessly add, update, and delete their own notes. Ensuring utmost security, AKsBook guarantees that users can't access each other's notes. Leveraging the power of React, Node, Express, Bootstrap, JSON Web Tokens, and Postman, AKsBook sets a new standard for seamless and protected note management. "
   },
   {
     id:2,
     image: Notes,
     title: 'Newsmat',
     github: 'https://github.com/ajmat6',
-    description: 'This is the description of the project'
-  },
-  {
-    id:3,
-    image: Notes,
-    title: 'Weather App',
-    github: 'https://github.com/ajmat6',
-    description: 'This is the description of the project'
-  }
+    description: "Newsmat is a dynamic news website featuring separate sections for science, health, technology, education, Bollywood, and more. Powered by React, Node, Express, Bootstrap and equipped with infinite loading spinner, it offers an immersive and seamless news browsing experience that keeps you updated not only about what is happening in all over India but the incidents from all over the world."
+   }
+  // {
+  //   id:3,
+  //   image: Notes,
+  //   title: 'Weather App',
+  //   github: 'https://github.com/ajmat6',
+  //   description: 'This is the description of the project'
+  // }
 ]
 
 // for minor projects
 const data2 = [
-  {
-    id:4,
-    image: Notes,
-    title: 'Plotting Corona Cases',
-    github: 'https://github.com/ajmat6',
-    description: 'This is the description of the project'
-  },
+  // {
+  //   id:4,
+  //   image: Notes,
+  //   title: 'Plotting Corona Cases',
+  //   github: 'https://github.com/ajmat6',
+  //   description: 'This is the description of the project'
+  // },
   {
     id:5,
     image: Notes,
-    title: 'DanceMania',
+    title: 'Weather App',
     github: 'https://github.com/ajmat6',
     description: 'This is the description of the project'
   },

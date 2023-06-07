@@ -64,7 +64,6 @@ h1{
 /* Every component to be wrapped in a section tag */
 section{
   margin-top: 8rem;
-  /* height: 100vh; */
 }
 
 /* Every section having direct child h2 and h5 */
@@ -75,7 +74,7 @@ section > h2, section > h5{
 
 section > h2 {
   color: var(--color-primary);
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 /* class to set the colar as light */
@@ -145,6 +144,6 @@ img {
   }
 
   section {
-    margin-top: 2rem;
+    margin-top: 5rem;
   }
 }
