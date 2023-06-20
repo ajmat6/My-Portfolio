@@ -44,6 +44,11 @@ form {
     gap: 1.2rem;
 }
 
+form p {
+    color: var(--color-white);
+    overflow: hidden;
+}
+
 input, textarea {
     width: 100%;
     padding: 1.5rem;

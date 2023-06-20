@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useState,  useRef } from 'react';
 import './contact.css'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsLinkedin} from 'react-icons/bs'
@@ -6,6 +6,12 @@ import {BsWhatsapp} from 'react-icons/bs'
 import emailjs from 'emailjs-com' // Importing emailjs
 
 function Contact() {
+  const [formElements, setformElements] = useState("")
+
+  const handleOnChange = (e) => {
+    console.log("Handle on change");
+    setformElements(e.target.value);
+  }
 
   // Taken from emailjs docs
   const form = useRef();
@@ -14,6 +20,8 @@ function Contact() {
     e.preventDefault();
 
     emailjs.sendForm('service_2mp7tzs', 'template_8t9vhsi', form.current, '7Tr7DoGXcC_4hpdqM')
+
+    setformElements('');
   };
 
   return (
@@ -50,7 +58,8 @@ function Contact() {
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Enter Your Name' required/>
           <input type="email" name='email' placeholder='Enter Your Email' required />
-          <textarea name="message" rows="7" placeholder='Enter Your Message' required></textarea>
+          <textarea onChange={handleOnChange} value={formElements} name="message" rows="7" placeholder='Enter Your Message' required></textarea>
+          <p className='success'>Success!</p>
           <button type='submit' className='btn btn-primary submitButton'>Send Message</button>
         </form>
       </div>
