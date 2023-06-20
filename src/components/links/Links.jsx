@@ -27,12 +27,12 @@ const data = [
     {
         photo: github,
         name: 'Github',
-        link: 'https://auth.geeksforgeeks.org/user/ajmat1130666'
+        link: 'https://github.com/ajmat6'
     },
     {
         photo: gfg,
         name: 'GeeksforGeeks',
-        link: 'https://github.com/ajmat6'
+        link: 'https://auth.geeksforgeeks.org/user/ajmat1130666'
     }
 ]
 
