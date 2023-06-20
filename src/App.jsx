@@ -7,10 +7,12 @@ import Achievements from './components/achievements/Achievements'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import Links from './components/links/Links'
+import Logo from "./components/logo/Logo";
 
 function App() {
   return (
     <>
+      <Logo />
       <Header />
       <Navbar />
       <About />

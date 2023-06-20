@@ -23,7 +23,7 @@ function About() {
             <article className="about-card-content">
               <FaAward className="about-icon"/>
               <h5>Programmer</h5>
-              <small>1+ Years</small>
+              <small>Leetcode 150+ Days consistency(STILL GOING)</small>
             </article>
             <article className="about-card-content">
               <IoSchoolOutline className="about-icon"/>

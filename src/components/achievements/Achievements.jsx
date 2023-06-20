@@ -107,7 +107,7 @@ function Achievements() {
               <SiPug className="experience-icon"/>
               <div>
                 <h4>PUG, Handlebars</h4>
-                <small className='text-light'>Intermediate</small>
+                <small className='text-light'>Basic</small>
               </div>
             </article>
           </div>
@@ -193,7 +193,7 @@ function Achievements() {
               <RiComputerFill className="experience-icon"/>
               <div>
                 <h4>Computer Networks</h4>
-                <small className='text-light'>Intermediate</small>
+                <small className='text-light'>Basic</small>
               </div>
             </article>
           </div>

@@ -1,0 +1,13 @@
+.logo-container {
+    /* margin-top: 1rem; */
+}
+
+.logo {
+    margin-top: 1rem;
+    border-radius: 10rem;
+    background-color: black;
+    display: absolute;
+    top: 4rem;
+    height: 3rem;
+    width: 3rem;
+}
