@@ -145,9 +145,9 @@ function Achievements() {
               </div>
             </article>
             <article className="experience-d">
-              <SiSolidity className="experience-icon"/>
+              <DiJavascript className="experience-icon"/>
               <div>
-                <h4>Solidity</h4>
+                <h4>Javascript</h4>
                 <small className='text-light'>Basic</small>
               </div>
             </article>

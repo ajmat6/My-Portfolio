@@ -17,7 +17,7 @@ function Header() {
           <ul className="dynamic-texts">
               <li><span>Programmer</span></li>
               <li><span>MERN-Developer</span></li>
-              <li><span>Youtuber</span></li>
+              <li><span>Content-Creation</span></li>
               <li><span>Video-Editor</span></li>
           </ul>
         </div>

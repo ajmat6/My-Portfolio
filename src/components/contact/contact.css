@@ -44,10 +44,10 @@ form {
     gap: 1.2rem;
 }
 
-form p {
+/* form p {
     color: var(--color-white);
     overflow: hidden;
-}
+} */
 
 input, textarea {
     width: 100%;

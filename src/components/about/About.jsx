@@ -28,12 +28,12 @@ function About() {
             <article className="about-card-content">
               <IoSchoolOutline className="about-icon"/>
               <h5>College CGPA</h5>
-              <small>9+ CGPA</small>
+              <small>9+ CGPA till current semester</small>
             </article>
             <article className="about-card-content">
               <VscFolderLibrary className="about-icon"/>
               <h5>Projects</h5>
-              <small>20+ Projects</small>
+              <small>20+ Projects (Aggregate)</small>
             </article>
           </div>
 

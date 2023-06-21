@@ -59,7 +59,6 @@ function Contact() {
           <input type="text" name='name' placeholder='Enter Your Name' required/>
           <input type="email" name='email' placeholder='Enter Your Email' required />
           <textarea onChange={handleOnChange} value={formElements} name="message" rows="7" placeholder='Enter Your Message' required></textarea>
-          <p className='success'>Success!</p>
           <button type='submit' className='btn btn-primary submitButton'>Send Message</button>
         </form>
       </div>

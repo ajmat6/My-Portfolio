@@ -63,7 +63,7 @@ header {
     width: 100%;
     background: #1f1f38; 
     border-left: 2px solid #4db5ff;
-    animation: typing 2s steps(14) infinite;  
+    animation: typing 2s steps(16) infinite;  
 }
 
 

@@ -11,7 +11,7 @@ const data1 = [
   {
     id:1,
     image: Notes,
-    title: 'AksBook',
+    title: 'AKsBook',
     github: 'https://github.com/ajmat6/AKsBook-MERN',
     description: "Introducing AKsBook that offers each user a personalized account, empowering them to effortlessly add, update, and delete their own notes. Ensuring utmost security, AKsBook guarantees that users can't access each other's notes. Leveraging the power of React, Node, Express, Bootstrap, JSON Web Tokens, and Postman, AKsBook sets a new standard for seamless and protected note management. "
   },
