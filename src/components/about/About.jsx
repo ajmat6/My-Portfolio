@@ -23,21 +23,21 @@ function About() {
             <article className="about-card-content">
               <FaAward className="about-icon"/>
               <h5>Programmer</h5>
-              <small>Leetcode 150+ Days consistency(STILL GOING)</small>
+              <small>3🌟Leetcode(600+)</small>
             </article>
             <article className="about-card-content">
               <IoSchoolOutline className="about-icon"/>
               <h5>College CGPA</h5>
-              <small>9+ CGPA till current semester</small>
+              <small>9+ CGPA till 4th semester</small>
             </article>
             <article className="about-card-content">
               <VscFolderLibrary className="about-icon"/>
               <h5>Projects</h5>
-              <small>20+ Projects (Aggregate)</small>
+              <small>15+ Projects (Aggregate)</small>
             </article>
           </div>
 
-          <p>"Hey there! I'm Ajmat Kathat, a versatile programmer, full stack web developer, and video editor. With a passion for creating captivating digital experiences, I specialize in crafting elegant websites and seamlessly editing videos that leave a lasting impact. Through my expertise in programming languages and creative design, I strive to bring your visions to life. Let's collaborate and make your online presence truly shine!"</p>
+          <p>"👋Hii, I'm Ajmat Kathat, a pre-final year IT Student at Arya College of Engineering and IT, skilled in Data structures and algorithms and a full-stack web developer.As said that alone, we can do so little; together, we can do so much, let's collaborate and make our online presence truly shine!"</p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>   
         </div>
