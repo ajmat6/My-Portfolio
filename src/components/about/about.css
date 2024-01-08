@@ -2,6 +2,10 @@
     height: 100vh;
 } */
 
+#about {
+    margin-top: 0.1rem;
+}
+
 .about-container {
     display: grid;
     grid-template-columns: 35% 50%;
@@ -74,6 +78,10 @@
 /* Decreasing the width of the container and decreasing the margin top for each section */
 
 @media screen and (max-width: 1024px) {
+    #about {
+        margin-top: 12rem;
+    }
+
     .about-container {
         grid-template-columns: 1fr;
         gap: 0;
@@ -98,6 +106,10 @@
   
   
   @media screen and (max-width: 600px) {
+    #about {
+        margin-top: 7rem;
+    }
+
     .about-me {
         width: 65%;
         margin: 0 auto 3rem;

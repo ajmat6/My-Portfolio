@@ -48,9 +48,9 @@ function Contact() {
           <article className="contact-option">
             <BsWhatsapp className='option-icon'/>
             <h4>WhatsApp</h4>
-            <h5>+91-95212xxxxx</h5>
+            <h5>+91-9xxxxxxxxx</h5>
             {/* Below href will take user to the gmail and will automatically populate their gmail with reciever email id as mentioned below */}
-            <a href="https://api.whatsapp.com/send?phone=9521200877" target="_blank">Send a message</a>
+            <a href="https://api.whatsapp.com/send?phone=9660310292" target="_blank">Send a message</a>
           </article>
         </div>
 

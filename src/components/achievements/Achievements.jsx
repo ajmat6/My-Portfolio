@@ -21,7 +21,9 @@ import {BsGit} from 'react-icons/bs'
 import {FaLinux } from 'react-icons/fa'
 import {BsFillDatabaseFill} from 'react-icons/bs'
 import {RiComputerFill} from 'react-icons/ri'
-
+import { SiTailwindcss } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
+import { SiTypescript } from "react-icons/si";
 
 function Achievements() {
   return (
@@ -56,9 +58,9 @@ function Achievements() {
               </div>
             </article>
             <article className="experience-d">
-              <BsFillBootstrapFill className="experience-icon"/>
+              <SiTailwindcss className="experience-icon"/>
               <div>
-                <h4>Bootstrap</h4>
+                <h4>Tailwind CSS</h4>
                 <small className='text-light'>Basic</small>
               </div>
             </article>
@@ -67,6 +69,13 @@ function Achievements() {
               <div>
                 <h4>React</h4>
                 <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+            <article className="experience-d">
+              <TbBrandNextjs className="experience-icon"/>
+              <div>
+                <h4>Next.js</h4>
+                <small className='text-light'>Basic</small>
               </div>
             </article>
           </div>
@@ -106,7 +115,7 @@ function Achievements() {
             <article className="experience-d">
               <SiPug className="experience-icon"/>
               <div>
-                <h4>PUG, Handlebars</h4>
+                <h4>Multer</h4>
                 <small className='text-light'>Basic</small>
               </div>
             </article>
@@ -137,13 +146,13 @@ function Achievements() {
                 <small className='text-light'>Basic</small>
               </div>
             </article>
-            <article className="experience-d">
+            {/* <article className="experience-d">
               <DiPython className="experience-icon"/>
               <div>
                 <h4>Python</h4>
                 <small className='text-light'>Basic</small>
               </div>
-            </article>
+            </article> */}
             <article className="experience-d">
               <DiJavascript className="experience-icon"/>
               <div>
@@ -164,14 +173,14 @@ function Achievements() {
             <article className="experience-d">
               <BsGit className="experience-icon"/>
               <div>
-                <h4>Version Control - Git</h4>
+                <h4>Git</h4>
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>
             <article className="experience-d">
               <FaLinux className="experience-icon"/>
               <div>
-                <h4>Operating System - Linux</h4>
+                <h4>Operating System</h4>
                 <small className='text-light'>Basic</small>
               </div>
             </article>

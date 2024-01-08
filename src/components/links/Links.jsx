@@ -4,6 +4,8 @@ import leetcode from '../../Assets/LeetCode.png'
 import gfg from '../../Assets/gfg.jfif'
 import github from '../../Assets/github.png'
 import Linkedin from '../../Assets/linkedin.png'
+import cf from '../../Assets/codeforces.webp'
+import cc from '../../Assets/codchef.jpeg'
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -20,19 +22,24 @@ const data = [
         link: 'https://linkedin.com/in/ajmat-kathat-0a5b45252'
     },
     {
-        photo: leetcode,
-        name: 'Leetcode',
-        link: 'https://leetcode.com/ajmat6'
-    },
-    {
         photo: github,
         name: 'Github',
         link: 'https://github.com/ajmat6'
     },
     {
-        photo: gfg,
-        name: 'GeeksforGeeks',
-        link: 'https://auth.geeksforgeeks.org/user/ajmat1130666'
+        photo: leetcode,
+        name: 'Leetcode',
+        link: 'https://leetcode.com/tourist07'
+    },
+    {
+        photo: cf,
+        name: 'Codeforces',
+        link: 'https://codeforces.com/profile/ajmat6'
+    },
+    {
+        photo: cc,
+        name: 'Codechef',
+        link: 'https://www.codechef.com/users/ajmat6'
     }
 ]
 

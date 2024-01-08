@@ -5,18 +5,34 @@ import Notes from '../../Assets/Notes.jpg'
 import text from '../../Assets/text.png'
 import weather from '../../Assets/weather.jfif'
 import news from '../../Assets/news.jpg'
+import oac from '../../Assets/Oldaryaconnect.png'
+import ecomm from '../../Assets/eccomerce.jpg'
 
 // for major projects
 const data1 = [
   {
     id:1,
+    image: oac,
+    title: 'OldAryaConnect',
+    github: 'https://github.com/ajmat6/OAC',
+    description: "Developed a versatile MERN stack-based platform facilitating access to a wide range of notes catering to university exams, Data Structures and Algorithms (DSA), and various tech stacks.Ensured scalability by structuring the system to accommodate diverse types of study notes, optimizing user experience and knowledge acquisition.Also includes Lost and Found feature enabling users to report lost or found items, fostering a community-driven environment.Implemented a secure and confidential communication system where responders can interact with the item poster while maintaining privacy.Developed a mechanism for item posters to evaluate responses, granting access to claimer's contact details upon acceptance, thereby facilitating safe item retrieval."
+  },
+  {
+    id:2,
+    image: ecomm,
+    title: 'Ecommerce Platform',
+    github: 'https://github.com/ajmat6/Ecommerce-Platform',
+    description: "Developed an e-commerce website using the MERN stack, ensuring full responsiveness. Features include a user-friendly interface, secure payment gateways,  personalized user profiles, order tracking, and seamless integration with social media platforms. Building a robust platform that delivers an exceptional online shopping experience, maximizing convenience and customer satisfaction."
+   },
+  {
+    id:3,
     image: Notes,
     title: 'AKsBook',
     github: 'https://github.com/ajmat6/AKsBook-MERN',
     description: "Introducing AKsBook that offers each user a personalized account, empowering them to effortlessly add, update, and delete their own notes. Ensuring utmost security, AKsBook guarantees that users can't access each other's notes. Leveraging the power of React, Node, Express, Bootstrap, JSON Web Tokens, and Postman, AKsBook sets a new standard for seamless and protected note management. "
   },
   {
-    id:2,
+    id:4,
     image: news,
     title: 'Newsmat',
     github: 'https://github.com/ajmat6/React-Newsmat',

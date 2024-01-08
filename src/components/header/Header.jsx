@@ -7,7 +7,7 @@ import Social from './Social'
 // This header is for your Name and the typing text
 function Header() {
   return (
-    <header>
+    <header id='hed'>
       <div className="container header-container">
         <h5> Hello I'm </h5>
         <h1>Ajmat Kathat</h1>
@@ -15,10 +15,10 @@ function Header() {
         <div className="typing-text">
         <div className="static-text"></div>
           <ul className="dynamic-texts">
-              <li><span>Programmer</span></li>
               <li><span>MERN-Developer</span></li>
-              <li><span>Content-Creation</span></li>
-              <li><span>Video-Editor</span></li>
+              <li><span>Programmer</span></li>
+              <li><span>Tech-Enthusiast</span></li>
+              <li><span>Content-Creator</span></li>
           </ul>
         </div>
         <CTA />

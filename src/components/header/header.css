@@ -1,6 +1,10 @@
+#hed {
+    /* margin-top: 5rem; */
+}
+
 header {
     height: 122vh;
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 
 .header-container {
