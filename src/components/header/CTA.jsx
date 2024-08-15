@@ -1,5 +1,5 @@
 import React from 'react'
-import Resume from "../../Assets/Resume.pdf"; // importing resume from the assets
+import Resume from "../../Assets/PResume.pdf"; // importing resume from the assets
 
 // This component is for Download resume button and lets talk button
 function CTA() {

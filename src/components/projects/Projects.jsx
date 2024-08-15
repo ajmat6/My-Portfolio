@@ -4,7 +4,7 @@ import {FaGithub} from 'react-icons/fa'
 import Notes from '../../Assets/Notes.jpg'
 import text from '../../Assets/text.png'
 import weather from '../../Assets/weather.jfif'
-import news from '../../Assets/news.jpg'
+import SortTheAlgo from '../../Assets/sortalgos.png'
 import oac from '../../Assets/Oldaryaconnect.png'
 import ecomm from '../../Assets/eccomerce.jpg'
 
@@ -15,6 +15,7 @@ const data1 = [
     image: oac,
     title: 'OldAryaConnect',
     github: 'https://github.com/ajmat6/OAC',
+    Live: 'https://oldaryaconnect.in/',
     description: "Developed a versatile MERN stack-based platform facilitating access to a wide range of notes catering to university exams, Data Structures and Algorithms (DSA), and various tech stacks.Ensured scalability by structuring the system to accommodate diverse types of study notes, optimizing user experience and knowledge acquisition.Also includes Lost and Found feature enabling users to report lost or found items, fostering a community-driven environment.Implemented a secure and confidential communication system where responders can interact with the item poster while maintaining privacy.Developed a mechanism for item posters to evaluate responses, granting access to claimer's contact details upon acceptance, thereby facilitating safe item retrieval."
   },
   {
@@ -22,7 +23,7 @@ const data1 = [
     image: ecomm,
     title: 'Ecommerce Platform',
     github: 'https://github.com/ajmat6/Ecommerce-Platform',
-    description: "Developed an e-commerce website using the MERN stack, ensuring full responsiveness. Features include a user-friendly interface, secure payment gateways,  personalized user profiles, order tracking, and seamless integration with social media platforms. Building a robust platform that delivers an exceptional online shopping experience, maximizing convenience and customer satisfaction."
+    description: "Developed an e-commerce website using the MERN stack, ensuring full responsiveness. Features include a user-friendly interface,  personalized user profiles, order tracking, and seamless integration with social media platforms. Building a robust platform that delivers an exceptional online shopping experience, maximizing convenience and customer satisfaction."
    },
   {
     id:3,
@@ -33,10 +34,11 @@ const data1 = [
   },
   {
     id:4,
-    image: news,
-    title: 'Newsmat',
-    github: 'https://github.com/ajmat6/React-Newsmat',
-    description: "Newsmat is a dynamic news website featuring separate sections for science, health, technology, education, Bollywood, and more. Powered by React, Node, Express, Bootstrap and equipped with infinite loading spinner and News API, it offers an immersive and seamless news browsing experience that keeps you updated not only about what is happening in all over India but the incidents from all over the world."
+    image: SortTheAlgo,
+    title: 'SortTheAlgo',
+    github: 'https://github.com/ajmat6/SortTheAlgos',
+    Live: 'https://sort-the-algos.vercel.app/',
+    description: "SortTheAlgo project visualizes various sorting algorithms using React, providing an interactive visual experience to understand sorting algoritms visually. It dynamically illustrates algorithms like Quick Sort, Merge Sort, Insertion Sort, Selection Sort and Bubble Sort, enhancing comprehension of data structures and algorithms through visual representation and making it easier to understand."
    }
   // {
   //   id:3,
@@ -81,17 +83,16 @@ function Projects() {
       <h3>Major Projects</h3>
       <div className="container project-container">
         {
-          data1.map(({id, image, title, github, description}) => {
+          data1.map((item) => {
             return (
-              <article key={id} className="project-item">
+              <article key={item.id} className="project-item">
                 <div className="project-item-image">
-                  <img className='project-photo' src={image} alt={title} />
+                  <img className='project-photo' src={item.image} alt={item.title} />
                 </div>
-                <h3>{title}</h3>
-                <p>{description}</p>
-                <a href={github} className="btn btn-primary" target='_blank'>Github<span><FaGithub className="github"/></span></a>
-                {/* For Future when you will deploy all those websites */}
-                {/* <a href="https://github.com/ajmat6" className="btn" target='_blank'>Github<FaGithub /></a> */}
+                <h3>{item.title}</h3>
+                <p>{item.description}</p>
+                <a href={item.github} className="btn btn-primary" target='_blank'>Github<span><FaGithub className="github"/></span></a>
+                {item.Live && <a href={item.Live} className="btn" target='_blank' style={{marginLeft: '10px'}}>Live</a>}
               </article>
             )
           })

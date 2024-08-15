@@ -10,8 +10,8 @@ function Social() {
     <div className='header-socials'>
       <a href="https://linkedin.com/in/ajmat-kathat-0a5b45252" target='_blank'><BsLinkedin /></a>
       <a href="https://github.com/ajmat6" target='_blank'><FaGithub /></a>
-      <a href="https://leetcode.com/tourist07" target='_blank'><SiLeetcode /></a>
-      <a href="https://codeforces.com/profile/ajmat6" target='_blank'><SiCodeforces /></a>
+      <a href="https://leetcode.com/ajmat6" target='_blank'><SiLeetcode /></a>
+      {/* <a href="https://codeforces.com/profile/ajmat6" target='_blank'><SiCodeforces /></a> */}
     </div>
   )
 }

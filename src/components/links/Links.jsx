@@ -31,11 +31,11 @@ const data = [
         name: 'Leetcode',
         link: 'https://leetcode.com/tourist07'
     },
-    {
-        photo: cf,
-        name: 'Codeforces',
-        link: 'https://codeforces.com/profile/ajmat6'
-    },
+    // {
+    //     photo: cf,
+    //     name: 'Codeforces',
+    //     link: 'https://codeforces.com/profile/ajmat6'
+    // },
     {
         photo: cc,
         name: 'Codechef',

@@ -24,8 +24,8 @@
 .my-image {
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(10deg);
-    transition: var(--transition);
+    /* transform: rotate(10deg); */
+    /* transition: var(--transition); */
 }
 
 .my-image:hover {

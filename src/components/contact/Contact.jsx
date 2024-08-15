@@ -7,6 +7,7 @@ import emailjs from 'emailjs-com' // Importing emailjs
 
 function Contact() {
   const [formElements, setformElements] = useState("")
+  const [sent, setSent] = useState(false);
 
   const handleOnChange = (e) => {
     console.log("Handle on change");
@@ -20,6 +21,10 @@ function Contact() {
     e.preventDefault();
 
     emailjs.sendForm('service_2mp7tzs', 'template_8t9vhsi', form.current, '7Tr7DoGXcC_4hpdqM')
+    setSent(true)
+    setTimeout(() => {
+      setSent(false)
+    }, 2000)
 
     setformElements('');
   };
@@ -50,7 +55,7 @@ function Contact() {
             <h4>WhatsApp</h4>
             <h5>+91-9xxxxxxxxx</h5>
             {/* Below href will take user to the gmail and will automatically populate their gmail with reciever email id as mentioned below */}
-            <a href="https://api.whatsapp.com/send?phone=9660310292" target="_blank">Send a message</a>
+            <a href="https://api.whatsapp.com/send?phone=9660310292git" target="_blank">Send a message</a>
           </article>
         </div>
 
@@ -59,6 +64,7 @@ function Contact() {
           <input type="text" name='name' placeholder='Enter Your Name' required/>
           <input type="email" name='email' placeholder='Enter Your Email' required />
           <textarea onChange={handleOnChange} value={formElements} name="message" rows="7" placeholder='Enter Your Message' required></textarea>
+          {sent ? <div style={{color: 'green', fontSize: '15px', margin: '0'}}>Message sent successfully!</div> : <div></div>}
           <button type='submit' className='btn btn-primary submitButton'>Send Message</button>
         </form>
       </div>

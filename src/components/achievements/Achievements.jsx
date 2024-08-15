@@ -10,12 +10,9 @@ import {FaReact} from 'react-icons/fa'
 import {FaNodeJs} from 'react-icons/fa'
 import {SiExpress} from 'react-icons/si'
 import {SiMongodb} from 'react-icons/si'
-import {BsFillBootstrapFill} from 'react-icons/bs'
 import {TbBrandMysql} from 'react-icons/tb'
 import {SiPug} from 'react-icons/si'
-import {DiPython} from 'react-icons/di'
 import {FaJava} from 'react-icons/fa'
-import {SiSolidity} from 'react-icons/si'
 import {SiCplusplus} from 'react-icons/si'
 import {BsGit} from 'react-icons/bs'
 import {FaLinux } from 'react-icons/fa'
@@ -72,10 +69,10 @@ function Achievements() {
               </div>
             </article>
             <article className="experience-d">
-              <TbBrandNextjs className="experience-icon"/>
+              <SiTypescript className="experience-icon"/>
               <div>
-                <h4>Next.js</h4>
-                <small className='text-light'>Basic</small>
+                <h4>TypeScript</h4>
+                <small className='text-light'>Intermediate</small>
               </div>
             </article>
           </div>
@@ -136,28 +133,21 @@ function Achievements() {
               <SiCplusplus className="experience-icon"/>
               <div>
                 <h4>C++</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'>Intermediate</small>
               </div>
             </article>
-            <article className="experience-d">
-              <FaJava className="experience-icon"/>
-              <div>
-                <h4>Java</h4>
-                <small className='text-light'>Basic</small>
-              </div>
-            </article>
-            {/* <article className="experience-d">
-              <DiPython className="experience-icon"/>
-              <div>
-                <h4>Python</h4>
-                <small className='text-light'>Basic</small>
-              </div>
-            </article> */}
             <article className="experience-d">
               <DiJavascript className="experience-icon"/>
               <div>
-                <h4>Javascript</h4>
-                <small className='text-light'>Basic</small>
+                <h4>JavaScript</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+            <article className="experience-d">
+              <SiTypescript className="experience-icon"/>
+              <div>
+                <h4>TypeScript</h4>
+                <small className='text-light'>Intermediate</small>
               </div>
             </article>
           </div>
@@ -174,7 +164,7 @@ function Achievements() {
               <BsGit className="experience-icon"/>
               <div>
                 <h4>Git</h4>
-                <small className='text-light'>Intermediate</small>
+                <small className='text-light'>Basic</small>
               </div>
             </article>
             <article className="experience-d">

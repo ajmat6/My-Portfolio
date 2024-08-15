@@ -30,7 +30,7 @@ function Header() {
         </div>
 
         {/* Scroll Down Feature */}
-        <a href="#contact" className='scroll-down'>Scroll Down</a>
+        {/* <a href="#contact" className='scroll-down'>Scroll Down</a> */}
 
       </div>
     </header>
