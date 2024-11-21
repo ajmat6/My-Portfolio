@@ -29,7 +29,7 @@ const data = [
     {
         photo: leetcode,
         name: 'Leetcode',
-        link: 'https://leetcode.com/tourist07'
+        link: 'https://leetcode.com/u/_a6'
     },
     // {
     //     photo: cf,
@@ -39,7 +39,7 @@ const data = [
     {
         photo: cc,
         name: 'Codechef',
-        link: 'https://www.codechef.com/users/ajmat6'
+        link: 'https://www.codechef.com/users/ajmat28'
     }
 ]
 

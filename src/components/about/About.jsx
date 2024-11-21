@@ -23,12 +23,12 @@ function About() {
             <article className="about-card-content">
               <FaAward className="about-icon"/>
               <h5>Programmer</h5>
-              <small>3🌟Leetcode(500+Q & 1680+ Rated)</small>
+              <small>Leetcode(700+Q & 1840+ Rated)</small>
             </article>
             <article className="about-card-content">
               <IoSchoolOutline className="about-icon"/>
               <h5>College CGPA</h5>
-              <small>9+ CGPA till 5th semester</small>
+              <small>9.1 CGPA till 5th semester</small>
             </article>
             <article className="about-card-content">
               <VscFolderLibrary className="about-icon"/>

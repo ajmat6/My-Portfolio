@@ -24,8 +24,8 @@ function Footer() {
       <div className="footer-socials">
         <a href="https://linkedin.com/in/ajmat-kathat-0a5b45252" target='_blank'><BsLinkedin /></a>
         <a href="https://github.com/ajmat6" target='_blank'><FaGithub /></a>
-        <a href="https://leetcode.com/ajmat6" target='_blank'><SiLeetcode /></a>
-        <a href="https://www.codechef.com/users/ajmat6" target='_blank'><SiCodechef /></a>
+        <a href="https://leetcode.com/u/_a6" target='_blank'><SiLeetcode /></a>
+        <a href="https://www.codechef.com/users/ajmat28" target='_blank'><SiCodechef /></a>
       </div>
 
       <div className="footer-copyright">
